@@ -57,6 +57,7 @@ Suggests: aufs-tools,
           docker-compose-v2,
           docker-doc,
           rinse,
+          rootlesskit,
           zfs-fuse | zfsutils
 Built-Using: ${libc:Built-Using}, ${misc:Built-Using}
 Description: Linux container runtime
