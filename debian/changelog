@@ -1,3 +1,11 @@
+docker.io-app (29.1.3-0ubuntu4) resolute; urgency=medium
+
+  * d/docker.io.install: install dockerd-rootless* (LP: #2121905)
+  * d/control: suggest rootlesskit,needed by the dockerd-rootless* scripts
+  * d/NEWS: document rootless mode scripts
+
+ -- Athos Ribeiro <athos@ubuntu.com>  Tue, 31 Mar 2026 10:54:03 -0300
+
 docker.io-app (29.1.3-0ubuntu3) resolute; urgency=medium
 
   * d/t/docker-in-lxd:
